@@ -110,7 +110,7 @@ body{
     font-weight: 600;
 }
 .current-page-container span{
-    margin: 0 0 20px 70px;
+    margin: 0 0 20px 200px;
 }
 
 #current-page {
@@ -124,9 +124,8 @@ body{
 /* CARD */
 article{
     display: flex;
-    width: 600px;
-    min-height: 250px;
-    max-height: 350px;
+    flex-direction: column;
+    width: 300px;
     flex-wrap: wrap;
     background-color: var(--third-color);
     border-radius: 10px;
@@ -138,10 +137,9 @@ article:hover{
 }
 
 img{
-    width: 250px;
-    height: 100%;
+    width: 300px;
     border-style: none;
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 .info-container{
@@ -155,6 +153,7 @@ img{
 .section{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .section .gray-text{
@@ -165,6 +164,7 @@ img{
 
 .section h2{
     color: var(--green-color);
+    margin-bottom: 10px;
 }
 
 .section h2:hover{
